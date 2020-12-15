@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+font-family: 'Helvetica', 'Arial', sans-serif;
+font-size: 14pt;
+line-height 18pt;
+color: #000000;
+}
+nav a {
+color: #FFFFFF;
+text-decoration: none;
+padding-left: 50px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+body{
+    background-color: #CDCDCD;
+    
+}
+header{
+    background-color: #000000;
+    height: 123px;
+    text-align: center;
+}
+h1{
+    height: 100px;
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+    }
+}
+body{
+    background-color:#CDCDCD;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 25%;
+    grid-template-columns: 75%;
+}
+#foodarticles{
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.articles{
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#splash {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image:url("heading.jpg");
+    background-size:cover;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 35px;
+}
+footer{
+    padding-left:50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.floatleft {
+float: left;
+}
+#article{
+    margin-left: 35px;
+}
+
